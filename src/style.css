@@ -1,3 +1,47 @@
-h1 {
-  color: red;
+body {
+  background: #fdf3f3;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  margin-bottom: 25px;
+}
+
+hr {
+  opacity: 0.3;
+}
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+a {
+  color: #724060;
+  text-decoration: none;
+}
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+.typecity {
+  background-color: #fdf3f3;
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  line-height: 1;
+  width: 60%;
+}
+.search {
+  background: #a070a1;
+  color: white;
+  font-size: 16px;
+  padding: 20px 38px;
+  border: none;
+  border-radius: 4px;
+  line-height: 1;
+  margin-left: 5px;
 }
