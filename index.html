@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forecast App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -13,17 +19,23 @@
         <input type="submit" value="Search" class="search" />
       </form>
       <hr />
-      <h1>Rzeszów</h1>
-      <h4>Monday 10:00</h4>
-      <h2>
-        <div class="temp">☀ 29°C</div>
-        <div class="description">Mostly Sunny</div>
-      </h2>
-      <ul>
-        <li>Tue ☀ 29°C</li>
-        <li>Wed ☀ 29°C</li>
-        <li>Thu ☀ 29°C</li>
-        <li>Fri ☀ 29°C</li>
+      <header>
+        <h1>Rzeszów</h1>
+        <h2>
+          <div class="temp">☀ 29°C</div>
+        </h2>
+        <p>
+          <span> Monday 15:46</span>
+          , scattered clouds <br />
+          Humidity: <strong>89%</strong>, Wind:
+          <strong>3.13km/h</strong>
+        </p>
+      </header>
+      <ul class="list">
+        <li>Tue <br />☀ <br />29°C</li>
+        <li>Wed <br />☀ <br />29°C</li>
+        <li>Thu <br />☀ <br />29°C</li>
+        <li>Fri <br />☀ <br />29°C</li>
       </ul>
       <footer>
         Built by
