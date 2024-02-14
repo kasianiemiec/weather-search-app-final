@@ -25,10 +25,12 @@ h2 {
 h2 .temp {
   padding: 0;
   margin-bottom: 0;
-
+  display: flex;
   font-size: 74px;
   font-weight: 500;
   line-height: 1;
+  position: relative;
+  right: -95px;
 }
 header p {
   color: rgba(39, 33, 66, 0.4);
@@ -79,6 +81,10 @@ a {
   border-radius: 4px;
   line-height: 1;
   width: 60%;
+}
+.image {
+  height: 74px;
+  width: 74px;
 }
 .search {
   background: #a070a1;

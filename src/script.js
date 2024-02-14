@@ -31,6 +31,18 @@ function displayTemperature(response) {
   let wind = response.data.wind.speed;
   let currentWindSpeed = document.querySelector("#current-wind");
   currentWindSpeed.innerHTML = wind;
+
+  let icon = `<img
+                src="${response.data.condition.icon_url}"
+                alt="weather-image"
+                class="image"
+            />`;
+  let currentIcon = document.querySelector("#icon");
+  currentIcon.innerHTML = icon;
+
+  let humidity = response.data.temperature.humidity;
+  let currentHumidity = document.querySelector("#humidity");
+  currentHumidity.innerHTML = humidity;
 }
 function search(event) {
   event.preventDefault();

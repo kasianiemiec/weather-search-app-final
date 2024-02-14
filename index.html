@@ -28,12 +28,20 @@
       <header>
         <h1>Rzeszów</h1>
         <h2>
-          <div class="temp">☀ <span id="temp">29</span>°C</div>
+          <div class="temp">
+            <span id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
+                alt="weather-image"
+                class="image"
+            /></span>
+            <span id="temp">29</span>°C
+          </div>
         </h2>
         <p>
           <span id="current-date"> Monday 15:46</span>
           , <span id="description">scattered clouds</span> <br />
-          Humidity: <strong>89%</strong>, Wind:
+          Humidity: <strong><span id="humidity">89</span>%</strong>, Wind:
           <strong><span id="current-wind">3.13</span>km/h</strong>
         </p>
       </header>
