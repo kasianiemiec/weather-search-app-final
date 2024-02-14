@@ -23,6 +23,14 @@ function displayTemperature(response) {
   let temperature = Math.round(response.data.temperature.current);
   let currentTemp = document.querySelector("#temp");
   currentTemp.innerHTML = temperature;
+
+  let description = response.data.condition.description;
+  let currentDescription = document.querySelector("#description");
+  currentDescription.innerHTML = description;
+
+  let wind = response.data.wind.speed;
+  let currentWindSpeed = document.querySelector("#current-wind");
+  currentWindSpeed.innerHTML = wind;
 }
 function search(event) {
   event.preventDefault();
