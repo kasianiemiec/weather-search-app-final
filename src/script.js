@@ -57,5 +57,6 @@ function search(event) {
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${city}`;
 }
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", search);
